@@ -2,8 +2,8 @@
 
 *Desafio 1: Conversor de Moedas*
 
-Objetivo: Escrever um programa que converta um valor em reais para outras duas moedas 
-estrangeiras (por exemplo, dólar e euro).
+Objetivo: **Escrever um programa que converta um valor em reais para outras duas moedas 
+estrangeiras (por exemplo, dólar e euro).**
 
 *Instruções:*
 
@@ -30,10 +30,3 @@ Insira o valor em reais: 100 <br/>
 <br/>
 O valor em dólares é: 18,18 <br/>
 O valor em euros é: 15,38 <br/>
-
-
-
-Insira o valor em reais: 100
-
-O valor em dólares é: 18,18
-O valor em euros é: 15,38

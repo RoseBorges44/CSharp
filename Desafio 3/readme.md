@@ -2,8 +2,8 @@
 
 *Desafio 1: Calculadora de Gorjeta*
 
-Objetivo: Escrever um programa que calcule o valor da gorjeta a ser deixada em um 
-restaurante com base no valor da conta e na porcentagem de gorjeta.
+Objetivo: **Escrever um programa que calcule o valor da gorjeta a ser deixada em um 
+restaurante com base no valor da conta e na porcentagem de gorjeta.**
 
 *Instruções:*
 

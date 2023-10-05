@@ -1,1 +1,25 @@
+using System;
+
+class Idade
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int anoAtual, anoNascimento;
+
+        // Solicita ao usuário que insira o ano atual
+        Console.WriteLine("Insira o ano atual:");
+        anoAtual = Convert.ToInt32(Console.ReadLine());
+
+        // Solicita ao usuário que insira o ano de nascimento
+        Console.WriteLine("Insira o ano de nascimento:");
+        anoNascimento = Convert.ToInt32(Console.ReadLine());
+
+        // Calcula a idade
+        int idade = anoAtual - anoNascimento;
+
+        // Exibe a idade
+        Console.WriteLine("Sua idade é: {0}", idade);
+    }
+}
 

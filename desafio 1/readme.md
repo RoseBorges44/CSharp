@@ -2,8 +2,8 @@
 
 *Desafio 1: Calculadora*
 
-Objetivo: Escrever um programa que solicite ao usuário dois números e realize operações 
-simples de adição, subtração, multiplicação e divisão.
+Objetivo: **Escrever um programa que solicite ao usuário dois números e realize operações 
+simples de adição, subtração, multiplicação e divisão.**
 
 *Instruções:*
 

@@ -1,0 +1,28 @@
+using System;
+
+class ConversorDeMoedas
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        float valorReais, valorDolar, valorEuro;
+
+        // Solicita ao usuário que insira o valor em reais
+        Console.WriteLine("Insira o valor em reais:");
+        valorReais = Convert.ToSingle(Console.ReadLine());
+
+        // Define as taxas de conversão
+        float taxaDolar = 5.50f;
+        float taxaEuro = 6.50f;
+
+        // Calcula o valor equivalente em dólares
+        valorDolar = valorReais / taxaDolar;
+
+        // Calcula o valor equivalente em euros
+        valorEuro = valorReais / taxaEuro;
+
+        // Exibe os valores convertidos
+        Console.WriteLine("O valor em dólares é: {0}", valorDolar);
+        Console.WriteLine("O valor em euros é: {0}", valorEuro);
+    }
+}

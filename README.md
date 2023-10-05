@@ -10,7 +10,7 @@ Fique a vontade para usar estes exercícios.
 
 # Lista de exercícios:
 
-- Calculadora
-- Calculadora de Idade
-- Calculadora de Gorjeta
-- Conversao Moedas
+- Calculadora:  https://github.com/RoseBorges44/CSharp/edit/main/README.md
+- Calculadora de Idade: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+- Calculadora de Gorjeta: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+- Conversao Moedas: https://github.com/RoseBorges44/CSharp/edit/main/README.md

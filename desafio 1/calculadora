@@ -1,0 +1,29 @@
+using System;
+
+class Calculadora
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os números de entrada
+        int num1, num2;
+
+        // Solicita ao usuário que insira os números
+        Console.WriteLine("Insira o primeiro número:");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Insira o segundo número:");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Realiza as operações
+        int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int multiplicacao = num1 * num2;
+        float divisao = (float)num1 / num2;
+
+        // Exibe os resultados
+        Console.WriteLine("A soma é: {0}", soma);
+        Console.WriteLine("A subtração é: {0}", subtracao);
+        Console.WriteLine("A multiplicação é: {0}", multiplicacao);
+        Console.WriteLine("A divisão é: {0}", divisao);
+    }
+}

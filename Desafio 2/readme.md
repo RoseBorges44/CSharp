@@ -2,8 +2,8 @@
 
 *Desafio 1: Calculadora de Idade*
 
-Objetivo: Escrever um programa que solicite ao usuário o ano atual e o ano de nascimento 
-e calcule a idade.
+Objetivo: **Escrever um programa que solicite ao usuário o ano atual e o ano de nascimento 
+e calcule a idade.**
 
 *Instruções:*
 

@@ -1,0 +1,35 @@
+using System;
+
+class MultaDePesca
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        float pesoPeixes, pesoExcesso, multa;
+
+        // Solicita ao usuário que insira o peso dos peixes
+        Console.WriteLine("Insira o peso dos peixes:");
+        pesoPeixes = Convert.ToSingle(Console.ReadLine());
+
+        // Verifica se há excesso de peso
+        if (pesoPeixes > 50)
+        {
+            // Calcula o peso excedente
+            pesoExcesso = pesoPeixes - 50;
+
+            // Calcula o valor da multa
+            multa = pesoExcesso * 4;
+
+            // Exibe as mensagens
+            Console.WriteLine("O peso excedente é: {0}", pesoExcesso);
+            Console.WriteLine("O valor da multa é: {0}", multa);
+        }
+        else
+        {
+            // Exibe as mensagens
+            Console.WriteLine("O peso está dentro do limite permitido.");
+            Console.WriteLine("O peso excedente é: 0");
+            Console.WriteLine("O valor da multa é: 0");
+        }
+    }
+}

@@ -1,0 +1,36 @@
+using System;
+
+class ClassificacaoNadador
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int idade;
+
+        // Solicita ao usuário que insira a idade do nadador
+        Console.WriteLine("Insira a idade do nadador:");
+        idade = Convert.ToInt32(Console.ReadLine());
+
+        // Classifica o nadador
+        if (idade >= 5 && idade <= 7)
+        {
+            Console.WriteLine("Categoria: Infantil A");
+        }
+        else if (idade >= 8 && idade <= 11)
+        {
+            Console.WriteLine("Categoria: Infantil B");
+        }
+        else if (idade >= 12 && idade <= 13)
+        {
+            Console.WriteLine("Categoria: Juvenil A");
+        }
+        else if (idade >= 14 && idade <= 17)
+        {
+            Console.WriteLine("Categoria: Juvenil B");
+        }
+        else
+        {
+            Console.WriteLine("Categoria: Adultos");
+        }
+    }
+}

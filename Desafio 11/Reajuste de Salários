@@ -1,1 +1,46 @@
+using System;
+
+class AumentoDeSalario
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        float salario;
+
+        // Solicita ao usuário que insira o salário
+        Console.WriteLine("Insira o salário do colaborador:");
+        salario = Convert.ToSingle(Console.ReadLine());
+
+        // Calcula o percentual de aumento
+        float percentualAumento;
+        if (salario <= 280)
+        {
+            percentualAumento = 0.20;
+        }
+        else if (salario <= 700)
+        {
+            percentualAumento = 0.15;
+        }
+        else if (salario <= 1500)
+        {
+            percentualAumento = 0.10;
+        }
+        else
+        {
+            percentualAumento = 0.05;
+        }
+
+        // Calcula o valor do aumento
+        float valorAumento = percentualAumento * salario;
+
+        // Calcula o novo salário
+        float novoSalario = salario + valorAumento;
+
+        // Exibe a saída
+        Console.WriteLine("Salário antes do reajuste: {0}", salario);
+        Console.WriteLine("Percentual de aumento aplicado: {0}%", percentualAumento * 100);
+        Console.WriteLine("Valor do aumento: {0}", valorAumento);
+        Console.WriteLine("Novo salário, após o aumento: {0}", novoSalario);
+    }
+}
 

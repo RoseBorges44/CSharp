@@ -16,17 +16,16 @@ Fique a vontade para usar estes exercícios.
 # Lista de exercícios:
 
 1. Calculadora:  https://github.com/RoseBorges44/CSharp/edit/main/README.md
-![image](https://github.com/RoseBorges44/CSharp/assets/122793017/18cc7d0e-3fae-4353-8ba2-4a120064dfc1)
+2. Calculadora de Idade: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+3. Calculadora de Gorjeta: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+4. Conversao Moedas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+5. Multa da Pesca: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+6. Classificação do Nadador: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+7. Vendas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+8. Média das Notas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+9. Opção de Cursos: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+10. Palíndromos: https://github.com/RoseBorges44/CSharp/edit/main/README.md
+11. Reajuste de Salários: https://github.com/RoseBorges44/CSharp/edit/main/README.md
 
-3. Calculadora de Idade: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-4. Calculadora de Gorjeta: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-5. Conversao Moedas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-6. Multa da Pesca: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-7. Classificação do Nadador: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-8. Vendas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-9. Média das Notas: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-10. Opção de Cursos: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-11. Palíndromos: https://github.com/RoseBorges44/CSharp/edit/main/README.md
-12. Reajuste de Salários: https://github.com/RoseBorges44/CSharp/edit/main/README.md
 
 

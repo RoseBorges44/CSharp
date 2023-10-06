@@ -1,1 +1,38 @@
+using System;
+
+class VendaDeProduto
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int codigoProduto;
+        string nomeProduto;
+        int quantidadeComprada;
+        float valorUnitario;
+        float valorTotal;
+
+        // Solicita ao usuário que insira os dados do produto
+        Console.WriteLine("Insira o código do produto:");
+        codigoProduto = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Insira o nome do produto:");
+        nomeProduto = Console.ReadLine();
+
+        Console.WriteLine("Insira a quantidade comprada:");
+        quantidadeComprada = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Insira o valor unitário:");
+        valorUnitario = Convert.ToSingle(Console.ReadLine());
+
+        // Calcula o valor total da venda
+        valorTotal = quantidadeComprada * valorUnitario;
+
+        // Exibe a saída
+        Console.WriteLine("Código do produto: {0}", codigoProduto);
+        Console.WriteLine("Nome do produto: {0}", nomeProduto);
+        Console.WriteLine("Quantidade comprada: {0}", quantidadeComprada);
+        Console.WriteLine("Valor unitário: {0}", valorUnitario);
+        Console.WriteLine("Valor total: {0}", valorTotal);
+    }
+}
 

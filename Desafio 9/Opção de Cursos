@@ -40,9 +40,5 @@ class EscolhaDeCurso
                 Console.WriteLine("Opção inválida!");
                 return;
         }
-
-        // Exibe a turma escolhida
-        Console.WriteLine("Turma escolhida: {0}", turma);
     }
 }
-

@@ -26,12 +26,15 @@ class EscolhaDeCurso
         {
             case 1:
                 turma = 1;
+                Console.WriteLine("Turma escolhida: {0} - Programação", turma);
                 break;
             case 2:
                 turma = 2;
+                Console.WriteLine("Turma escolhida: {0} - Engenharia", turma);
                 break;
             case 3:
                 turma = 3;
+                Console.WriteLine("Turma escolhida: {0} - Administração", turma);
                 break;
             default:
                 Console.WriteLine("Opção inválida!");

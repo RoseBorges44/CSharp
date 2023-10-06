@@ -1,1 +1,45 @@
-x
+using System;
+
+class EscolhaDeCurso
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        string curso;
+        int turma;
+
+        // Exibe o menu de opções
+        Console.WriteLine("Escolha um curso:");
+        Console.WriteLine("1 - Programação");
+        Console.WriteLine("2 - Engenharia");
+        Console.WriteLine("3 - Administração");
+
+        // Solicita ao usuário que insira o curso
+        Console.WriteLine("Insira o número do curso:");
+        curso = Console.ReadLine();
+
+        // Converte o curso para um número inteiro
+        int cursoInt = Convert.ToInt32(curso);
+
+        // Seleciona a turma de acordo com o curso escolhido
+        switch (cursoInt)
+        {
+            case 1:
+                turma = 1;
+                break;
+            case 2:
+                turma = 2;
+                break;
+            case 3:
+                turma = 3;
+                break;
+            default:
+                Console.WriteLine("Opção inválida!");
+                return;
+        }
+
+        // Exibe a turma escolhida
+        Console.WriteLine("Turma escolhida: {0}", turma);
+    }
+}
+

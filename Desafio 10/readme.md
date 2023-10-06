@@ -1,31 +1,27 @@
-# Calculadora de Idade
+# Palindromo 
 
-*Desafio 1: Calculadora de Idade*
+*Desafio 10: Palindromo*
 
-Objetivo: **Escrever um programa que solicite ao usuário o ano atual e o ano de nascimento 
-e calcule a idade.**
+Objetivo: **Verificar se uma palavra é um palíndromo**
 
 *Instruções:*
 
-Solicite ao usuário que insira o ano atual.
-Solicite ao usuário que insira o ano de nascimento.
-Calcule a idade subtraindo o ano de nascimento do ano atual.
-Exiba a idade no console.
-
-Dica: Use variáveis para armazenar os valores de entrada e os resultados intermediários.
+Palavras palíndromos são aquelas que são lidas da direita para a esquerda da mesma maneira que da esquerda para a direita. Exemplo ARARA. Dado uma palavra, informar se ela
+é palíndroma ou não.
 
 # Explicação do código:
 
-- A primeira linha importa o namespace System, que contém classes e métodos básicos do .NET Framework.<br/>
-- A classe Calculadora contém um método Main(), que é o ponto de entrada do programa.<br/>
-- O método Main() declara variáveis para armazenar os números de entrada.<br/>
-- Em seguida, o método solicita ao usuário que insira o ano atual e o ano de nascimento.<br/>
-- Depois de receber os valores do usuário, o método calcula a idade subtraindo o ano de nascimento do ano atual.<br/>
-- Por fim, o método exibe a idade no console.<br/>
+- A primeira linha importa o namespace System, que contém classes e métodos básicos do .NET Framework. <br/>
+- A classe Palindromo contém um método Main(), que é o ponto de entrada do programa. <br/>
+- O método Main() declara uma variável para armazenar a palavra inserida pelo usuário. <br/>
+- Em seguida, o método solicita ao usuário que insira a palavra. <br/>
+- Depois de receber a palavra do usuário, o método usa um loop for para verificar se cada caractere da palavra é igual ao caractere oposto na palavra. <br/>
+- Se um caractere não for igual, o método define a variável ehPalindromo como false. <br/>
+- Por fim, o método exibe a saída, informando se a palavra é um palíndromo ou não. <br/>
 
 *Exemplo de saída:*
 
-Insira o ano atual: 2023 <br/>
-Insira o ano de nascimento: 1990 <br/>
+Insira uma palavra:
+arara <br/>
+A palavra 'arara' é um palíndromo.
 <br/>
-Sua idade é: 33 <br/>

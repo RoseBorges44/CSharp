@@ -1,1 +1,36 @@
-D
+using System;
+
+class Palindromo
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        string palavra;
+
+        // Solicita ao usuário que insira a palavra
+        Console.WriteLine("Insira uma palavra:");
+        palavra = Console.ReadLine();
+
+        // Verifica se a palavra é um palíndromo
+        bool ehPalindromo = true;
+        for (int i = 0; i < palavra.Length / 2; i++)
+        {
+            if (palavra[i] != palavra[palavra.Length - 1 - i])
+            {
+                ehPalindromo = false;
+                break;
+            }
+        }
+
+        // Exibe a saída
+        if (ehPalindromo)
+        {
+            Console.WriteLine("A palavra '{0}' é um palíndromo.", palavra);
+        }
+        else
+        {
+            Console.WriteLine("A palavra '{0}' não é um palíndromo.", palavra);
+        }
+    }
+}
+

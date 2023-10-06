@@ -1,6 +1,6 @@
-# Reajuste de Slários
+# Reajuste de Salários
 
-*Desafio 11: Reajuste de Slários*
+*Desafio 11: Reajuste de Salários*
 
 Objetivo: **Calcular o aumento de salário dos colaboradores das Organizações Tabajara:**
 

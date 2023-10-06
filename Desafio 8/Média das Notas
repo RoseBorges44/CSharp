@@ -1,1 +1,43 @@
+using System;
+
+class MediaFinal
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        float notaProva1, notaProva2, notaProva3, notaExame, media, mediaFinal;
+
+        // Solicita ao usuário que insira as notas das provas
+        Console.WriteLine("Insira a nota da prova 1:");
+        notaProva1 = Convert.ToSingle(Console.ReadLine());
+
+        Console.WriteLine("Insira a nota da prova 2:");
+        notaProva2 = Convert.ToSingle(Console.ReadLine());
+
+        Console.WriteLine("Insira a nota da prova 3:");
+        notaProva3 = Convert.ToSingle(Console.ReadLine());
+
+        // Calcula a média das provas
+        media = (notaProva1 + notaProva2 + notaProva3) / 3;
+
+        // Verifica se o aluno passou de ano
+        if (media >= 7)
+        {
+            // Exibe a mensagem de aprovação
+            Console.WriteLine("O aluno foi aprovado!");
+        }
+        else
+        {
+            // Calcula a nota do exame
+            notaExame = (7 - media) * 2;
+
+            // Calcula a média final
+            mediaFinal = (media + notaExame) / 2;
+
+            // Exibe a mensagem de que o aluno precisará fazer o exame
+            Console.WriteLine("O aluno ficou para exame final.");
+            Console.WriteLine("Nota necessária para aprovação: {0}", mediaFinal);
+        }
+    }
+}
 

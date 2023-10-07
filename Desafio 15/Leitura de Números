@@ -1,0 +1,37 @@
+using System;
+
+class LeituraDeNumeros
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int numero = 0;
+        int quantidadeNumeros = 0;
+        int somaNumeros = 0;
+        int quantidadeNumerosPares = 0;
+
+        // Solicita ao usuário que insira os números
+        while (numero != 0)
+        {
+            Console.WriteLine("Insira um número:");
+            numero = Convert.ToInt32(Console.ReadLine());
+
+            // Atualiza a quantidade de números
+            quantidadeNumeros++;
+
+            // Atualiza a soma dos números
+            somaNumeros += numero;
+
+            // Atualiza a quantidade de números pares
+            if (numero % 2 == 0)
+            {
+                quantidadeNumerosPares++;
+            }
+        }
+
+        // Exibe os resultados
+        Console.WriteLine("Quantidade de números lidos: {0}", quantidadeNumeros);
+        Console.WriteLine("Soma dos números lidos: {0}", somaNumeros);
+        Console.WriteLine("Quantidade de números pares: {0}", quantidadeNumerosPares);
+    }
+}

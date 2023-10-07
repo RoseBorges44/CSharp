@@ -1,0 +1,44 @@
+using System;
+
+class SomaDeVetores
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int[] vetorA = new int[10];
+        int[] vetorB = new int[10];
+        int[] vetorC = new int[10];
+
+        // Inicializa os vetores A e B
+        for (int i = 0; i < 10; i++)
+        {
+            vetorA[i] = i;
+            vetorB[i] = 10 - i;
+        }
+
+        // Calcula os elementos do vetor C
+        for (int i = 0; i < 10; i++)
+        {
+            vetorC[i] = vetorA[i] + vetorB[9 - i];
+        }
+
+        // Exibe os vetores A, B e C
+        Console.WriteLine("Vetor A:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine("{0}", vetorA[i]);
+        }
+
+        Console.WriteLine("Vetor B:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine("{0}", vetorB[i]);
+        }
+
+        Console.WriteLine("Vetor C:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine("{0}", vetorC[i]);
+        }
+    }
+}

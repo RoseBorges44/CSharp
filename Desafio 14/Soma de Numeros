@@ -1,0 +1,19 @@
+using System;
+
+class SomaDeNumeros
+{
+    static void Main(string[] args)
+    {
+        // Declara variáveis para armazenar os valores de entrada
+        int soma = 0;
+
+        // Soma os números de 1 a 100
+        for (int i = 1; i <= 100; i++)
+        {
+            soma += i;
+        }
+
+        // Exibe o resultado
+        Console.WriteLine("A soma dos números de 1 a 100 é: {0}", soma);
+    }
+}

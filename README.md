@@ -26,6 +26,9 @@ Fique a vontade para usar estes exercícios.
 9. ***Opção de Cursos:*** <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
 10. ***Palíndromos:*** <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
 11. ***Reajuste de Salários:*** <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
-
+12. ***Soma de Vetores:***  <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
+13. ***Média Soma Menor:***  <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
+14. ***Soma de Números:***  <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
+15. ***Leitura de Números:***  <br/>https://github.com/RoseBorges44/CSharp/edit/main/README.md
 
 
